@@ -1,0 +1,1 @@
+xcopy /E /Y ..\website_root\*.* C:\Programing\MAMP\htdocs\*.*
