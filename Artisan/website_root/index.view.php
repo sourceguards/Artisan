@@ -29,7 +29,12 @@
 		 	<?php } ?>
 		</ul>
 		</td>
-		<td></td>
+		<td>
+		 	<?php 
+		 		$page2show = $_GET['url'];		 		
+		 		require_once($page2show);		
+	     	?>
+		</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -43,6 +48,7 @@ if($debug==1){
 	var_dump($navmenu);
 	//var_dump($spinosaurus);
 	//var_dump($dinos);
+	var_dump($_GET);
 	echo '</pre>';
 }
 ?>
